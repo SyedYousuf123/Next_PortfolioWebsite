@@ -20,7 +20,7 @@ const NotFoundComponent = () => {
             >
                 <Image
                     fill
-                    src="/imgs/logo.png"
+                    src="metadata/ya.png"
                     alt="Logo"
                     priority
                     className="select-none pointer-events-none dark:invert invert-0 drop-shadow-[0_0_33px] drop-shadow-primary"

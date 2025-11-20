@@ -2,7 +2,7 @@
 
 import { createContext, useEffect, useState } from 'react';
 import { I18nextProvider } from 'react-i18next';
-import { Language } from '@/utils';
+import { Language} from '@/utils';
 import { translation } from '@/translations';
 import { usePreferences } from '@/hooks';
 import i18next from 'i18next';

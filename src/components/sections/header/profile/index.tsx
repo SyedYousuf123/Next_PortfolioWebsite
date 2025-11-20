@@ -29,7 +29,7 @@ const HeaderProfile = ({
         {showImage && (
           <Image
             src={ProfileImage}
-            alt="Luiz Gustavo Alves"
+            alt="yousuf"
             className={cn("w-10 h-10 lg:w-14 lg:h-14 rounded-full", imageClassName)}
           />
         )}

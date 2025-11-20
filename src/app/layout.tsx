@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Lucas | Full Stack Dev",
   description: "Portfólio de Lucas de Moraes, desenvolvedor web.",
   icons: {
-    icon: "https://devlucas.website/imgs/favicon.png"
+    icon: "https://devlucas.website/metadata/ya.png"
   },
   openGraph: {
     title: "Lucas de Moraes | Full Stack Dev",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Lucas",
     images: [
       {
-        url: "https://devlucas.website/imgs/favicon.png",
+        url: "https://devlucas.website/metadata/ya.png",
         width: 256,
         height: 256,
         alt: "Portfólio de Lucas de Moraes",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Lucas | Full Stack Dev",
     description: "Portfólio de Lucas de Moraes, desenvolvedor web.",
-    images: ["https://devlucas.website/imgs/favicon.png"],
+    images: ["https://devlucas.website/metadata/ya.png"],
   }
 };
 
