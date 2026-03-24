@@ -9,6 +9,7 @@ import Router from "@/../public/assets/icons/router.svg";
 export const HOME_SKILLS_ITEMS = [
 	"FrontEnd",
 	"BackEnd",
+	"Tools"
 ];
 
 export const HOME_SKILLS_CARDS = {
@@ -82,34 +83,34 @@ export const HOME_SKILLS_CARDS = {
 	},
 
 	
-	// WebHosting: {
-	// 	icon: Router,
-	// 	items: [
-	// 		{
-	// 			title: "Vercel",
-	// 			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg",
-	// 			invert: true,
-	// 		},
-	// 		{
-	// 			title: "AWS",
-	// 			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-	// 			invert: false,
-	// 		},
-	// 		{
-	// 			title: "Cloudflare",
-	// 			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg",
-	// 			invert: false,
-	// 		},
-	// 		{
-	// 			title: "HostGator",
-	// 			icon: Asterisk,
-	// 			invert: true,
-	// 		},
-	// 		{
-	// 			title: "Email",
-	// 			icon: Asterisk,
-	// 			invert: true,
-	// 		},
-	// 	],
-	// },
+	Tools: {
+  icon: Router,
+  items: [
+    {
+      title: "Vercel",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+      invert: true,
+    },
+    {
+      title: "GitHub",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      invert: true,
+    },
+    {
+      title: "NPM",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+      invert: false,
+    },
+    {
+      title: "Netlify",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg",
+      invert: false,
+    },
+    // {
+    //   title: "Cloudflare",
+    //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original.svg",
+    //   invert: false,
+    // },
+  ],
+}
 };

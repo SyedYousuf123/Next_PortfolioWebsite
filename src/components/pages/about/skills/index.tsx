@@ -20,10 +20,8 @@ const AboutSkills = () => {
           title={t(`${AboutKeys.Skills}.${AboutSkillKeys.Frameworks}.title`)}
           items={FRAMEWORK_LIBRARIES_SKILLS}
         />
-        <AboutSkillsItems
-          title={t(`${AboutKeys.Skills}.${AboutSkillKeys.Databases}.title`)}
-          items={DATABASES_SKILLS}
-        />
+        
+      
         {/* <AboutSkillsItems
           title={t(`${AboutKeys.Skills}.${AboutSkillKeys.Microservices}.title`)}
           items={MICROSERVICES_SKILLS}

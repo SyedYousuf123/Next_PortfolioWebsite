@@ -33,7 +33,7 @@
 		}
 	},
 	"Footer": {
-		"copyright": "2025 Syed Yousuf Ahmed - All Rights Reserved"
+		"copyright": "2026 Syed Yousuf Ahmed - All Rights Reserved"
 	},
 	"HomePage": {
 		"Hero": {
@@ -60,6 +60,10 @@
 			"BackEnd": {
 				"title": "Backend Development",
 				"content": "Creating secure, scalable and high performance servers, building APIs, database integrations, microservices, Cron-Jobs, Artificial Intelligence (AI)."
+			},
+			"Tools": {
+				"title": "Tools And Technologies",
+				"content": "Using modern tools like Git, React, Tailwind, Node.js, and cloud platforms to build, deploy, and maintain scalable applications efficiently."
 			}
 		}
 	},
