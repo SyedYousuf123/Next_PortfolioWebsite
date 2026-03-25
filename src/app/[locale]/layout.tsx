@@ -29,12 +29,12 @@ const geistMono = Geist_Mono({
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>; // ✅ Promise
 }): Promise<Metadata> {
   const websiteUrl =
     process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:3000";
 
-  const { locale } = params;
+  const { locale } = await params; // ✅ await
   const t = await getTranslations({ locale });
 
   const metadata = {
@@ -74,11 +74,10 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>; // ✅ Promise
 }) {
-  const { locale } = params;
+  const { locale } = await params; // ✅ await
 
-  // Ensure that the incoming `locale` is valid
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
@@ -107,9 +106,7 @@ export default async function LocaleLayout({
         <meta name="twitter:description" content={metadata.description} />
         <meta name="twitter:image" content={OpenGraphImage.src} />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning>
         <NextIntlClientProvider>
           <ThemeProvider
             attribute="class"
