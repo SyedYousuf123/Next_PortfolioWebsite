@@ -29,12 +29,12 @@ const geistMono = Geist_Mono({
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const websiteUrl =
     process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:3000";
 
-  const { locale } = params;
+  const { locale } = await params;
   const t = await getTranslations({ locale });
 
   const metadata = {
@@ -74,9 +74,9 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   // Ensure that the incoming `locale` is valid
   if (!hasLocale(routing.locales, locale)) {
