@@ -8,14 +8,14 @@ export const SOCIAL_MEDIA_KEYS = {
 }
 
 export const SOCIAL_MEDIA = {
-  "github": {
-    name: "GitHub",
-    image: Github,
-    href: "https://github.com/SyedYousuf123",
-    linkName: "syed yousuf ahmed",
-    hasLocale: false,
-    localeName: false,
-  },
+  // "github": {
+  //   name: "GitHub",
+  //   image: Github,
+  //   href: "https://github.com/SyedYousuf123",
+  //   linkName: "syed yousuf ahmed",
+  //   hasLocale: false,
+  //   localeName: false,
+  // },
   "linkedin": {
     name: "LinkedIn",
     image: Linkedin,

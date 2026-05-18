@@ -14,16 +14,14 @@ type ProjectItem = {
 export const PROJECTS_ITEMS: Record<string, ProjectItem> = {
   "Project_1": {
     image: Project1,
-    href: "https://cfmoto.com.br/",
+    href: "https://traska-iota.vercel.app/en",
     githubHref: "",
     tags: [
       "TypeScript",
-      "Next.js",
       "React",
       "Tailwind",
       "Shadcn",
-      "NestJS",
-      "Prisma",
+      "Firbase",
     ],
   },
   "Project_3": {
